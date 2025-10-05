@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lista de Tarefas (Front + API)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de tarefas</h1>
+    <div class="input-group">
+      <input id="taskInput" placeholder="Qual a tarefa que deseja cadastrar?">
+      <button id="addBtn">+</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="footer">
+      <span id="taskCounter">0/0 concluídas</span>
+      <button id="clearCompleted">Remover tarefas concluídas</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
